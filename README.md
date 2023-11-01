@@ -1,4 +1,4 @@
-# object-detection-yolov3-opencv
+# python-object-detection-yolov-opencv
 
 ## Table of Contents
 
