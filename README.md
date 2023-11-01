@@ -1,4 +1,4 @@
-# python-object-detection-yolov-opencv
+# python-object-detection-yolo-opencv
 
 ## Table of Contents
 
