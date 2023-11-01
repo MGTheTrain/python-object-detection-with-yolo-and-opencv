@@ -1,5 +1,11 @@
 # object-detection-yolov3-opencv
 
+## Table of Contents
+
++ [Summary](#summary)
++ [References](#references)
++ [How to use](#how-to-use)
+
 ## References 
 
 - [darknet Github repository](https://pjreddie.com/darknet/yolo/)
@@ -8,17 +14,18 @@
 
 ## How to use
 
-#### Perequisite
+### Perequisite
 
-Python release version 3.9, 3.10 or 3.11. 
+- Python release version 3.9, 3.10 or 3.11
+- Ensure you have a WebCam
 
-#### Install the pip packages
+### Install the pip packages
 
 ```sh
 pip install -r requirements.txt
 ```
 
-#### Retrieve files for required for model inference (in this case object-detection)
+### Retrieve files for required for model inference (in this case object-detection)
 
 Following links can be utilized to download the `.weights` files:
 
@@ -35,3 +42,18 @@ Copy those weights in the `cfg` folder in this project.
 - Unzip the zip file
 - In `darknet/cfg` and `yolov4_darknet/cfg` you can find the cfg files which you can copy to the cfg folder if not already existing 
 - In `darknet/data` and `yolov4_darknet/data` you can find the `.names` (list of classes) files, e.g. `coco.names` 
+
+### Run the app
+
+In the `object_detector_app.py` select and therefore uncomment the specific `.weights`, `.cfg` and `names` (list of classes) files utilizing one of the following CNN architectures:
+
+- yolov3
+- yolov3-tiny
+- yolov4
+- yolov4-tiny
+
+Run the object detector app:
+
+```sh
+python object_detector_app.py
+```
