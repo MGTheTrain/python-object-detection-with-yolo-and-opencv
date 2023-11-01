@@ -6,6 +6,10 @@
 + [References](#references)
 + [How to use](#how-to-use)
 
+## Summary
+
+Simple Object detector app utilizing trained models considering the YOLO v3 or YOLO v4 CNN architecture.
+
 ## References 
 
 - [darknet Github repository](https://pjreddie.com/darknet/yolo/)
