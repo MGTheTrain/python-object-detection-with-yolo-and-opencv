@@ -49,7 +49,7 @@ Copy those weights in the `cfg` folder in this project.
 
 ### Run the app
 
-In the `object_detector_app.py` select and therefore uncomment the specific `.weights`, `.cfg` and `names` (list of classes) files utilizing one of the following CNN architectures:
+In the `object_detector_app.py` select and therefore uncomment the specific `.weights`, `.cfg` and `.names` (list of classes) files utilizing one of the following CNN architectures:
 
 - yolov3
 - yolov3-tiny
