@@ -8,7 +8,7 @@
 
 ## Summary
 
-Simple Object detector app utilizing trained YOLO v3 or YOLO v4 models.
+Simple Object detector app utilizing trained YOLO v3 or YOLO v4 CNN models.
 
 ## References 
 
