@@ -20,7 +20,6 @@ Simple Object detector app utilizing trained models considering the YOLO v3 or Y
 
 ### Perequisite
 
-- Python release version 3.9, 3.10 or 3.11
 - Ensure you have a WebCam
 
 ### Install the pip packages
