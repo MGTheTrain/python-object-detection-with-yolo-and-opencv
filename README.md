@@ -58,5 +58,7 @@ In the `object_detector_app.py` select and therefore uncomment the specific `.we
 Run the object detector app:
 
 ```sh
-python object_detector_app.py
+python object_detector_app.py --help
+# Object detection with yolov4
+python object_detector_app.py --model yolov4-tiny
 ```
