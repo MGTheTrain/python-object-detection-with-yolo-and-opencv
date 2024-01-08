@@ -14,7 +14,7 @@ Simple Object detector app utilizing trained YOLO v3 or YOLO v4 CNN models.
 
 - [darknet Github repository](https://github.com/pjreddie/darknet)
 - [yolov4_darknet Github repository](https://github.com/kiyoshiiriemon/yolov4_darknet)
-- [YOLO: Real Time Object detection](https://pjreddie.com/darknet/yolo/). The tutorial also explains how unsupervised learning can be applied for the YOLO architecture to generate a trained model (`weights` (weights of the nodes determined by backward pass), `cfg` (the actual CNN) and `<obj/coco>.names` (file containing the classes utilized for training in a text file) file).
+- [YOLO: Real Time Object detection]([https://pjreddie.com/darknet/yolo/](https://pjreddie.com/darknet/yolo/)). The tutorial also explains how supervised learning can be applied for the YOLO architecture to generate a custom trained model with `.weights` (weights of the nodes determined by backward pass), `.cfg` (the actual CNN) and `.names` (model classes utilized for training) files.
 
 ## How to use
 
