@@ -39,7 +39,7 @@ Following links can be utilized to download the `.weights` files:
 
 Copy those weights in the `cfg` folder in this project.
 
-### (Optional )Copy `.cfg` and `.names` files
+### (Optional) Copy `.cfg` and `.names` files
 
 Following steps can be considered in order to retrieve the`.cfg` and `.names` files:
 
