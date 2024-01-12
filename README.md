@@ -28,7 +28,7 @@ Simple Object detector app utilizing trained YOLO v3 or YOLO v4 CNN models.
 pip install -r requirements.txt
 ```
 
-### Retrieve files for required for model inference (in this case object-detection)
+### Retrieve files required for model inference (in this case object-detection)
 
 Following links can be utilized to download the `.weights` files:
 
